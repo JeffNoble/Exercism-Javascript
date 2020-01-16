@@ -3,7 +3,4 @@
 // convenience to get you started writing code faster.
 //
 
-export const accumulate = () => {
-    accumlate
-  
-};
+export const accumulate = (list, func) => list.map(func);
